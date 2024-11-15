@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>dev.jcsoftware</groupId>
+    <groupId>dev.lisaa</groupId>
     <artifactId>JScoreboards-parent</artifactId>
-    <version>2.1.5-RELEASE</version>
+    <version>2.2.0-RELEASE</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -16,9 +16,10 @@
     <modules>
         <module>api</module>
         <module>abstraction</module>
-        <module>1_14-1_18</module>
+        <module>1_14-1_19</module>
         <module>1_13</module>
         <module>1_8-1_12</module>
+        <module>1_20-1_21</module>
         <module>team-support-1_12</module>
     </modules>
 
@@ -53,7 +54,7 @@
 
     <distributionManagement>
         <repository>
-            <id>jordanosterberg-repo</id>
+            <id>lisaa-repository</id>
             <url>https://nexus-repo.jordanosterberg.com/repository/maven-releases/</url>
         </repository>
     </distributionManagement>

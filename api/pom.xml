@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>dev.jcsoftware</groupId>
+        <groupId>dev.lisaa</groupId>
         <artifactId>JScoreboards-parent</artifactId>
-        <version>2.1.5-RELEASE</version>
+        <version>2.2.0-RELEASE</version>
     </parent>
 
     <artifactId>JScoreboards</artifactId>
@@ -21,41 +21,48 @@
         </dependency>
 
         <dependency>
-            <groupId>dev.jcsoftware</groupId>
+            <groupId>dev.lisaa</groupId>
             <artifactId>jscoreboards-abstraction</artifactId>
             <version>${project.parent.version}</version>
             <scope>compile</scope>
         </dependency>
 
         <dependency>
-            <groupId>dev.jcsoftware</groupId>
+            <groupId>dev.lisaa</groupId>
             <artifactId>jscoreboards-1_8-1_12</artifactId>
             <version>${project.parent.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>dev.jcsoftware</groupId>
+            <groupId>dev.lisaa</groupId>
             <artifactId>jscoreboards-1_13</artifactId>
             <version>${project.parent.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>dev.jcsoftware</groupId>
-            <artifactId>jscoreboards-1_14-1_18</artifactId>
+            <groupId>dev.lisaa</groupId>
+            <artifactId>jscoreboards-1_14-1_19</artifactId>
             <version>${project.parent.version}</version>
             <scope>compile</scope>
         </dependency>
 
         <dependency>
-            <groupId>dev.jcsoftware</groupId>
+            <groupId>dev.lisaa</groupId>
             <artifactId>team-support-1_12</artifactId>
             <version>${project.parent.version}</version>
             <scope>compile</scope>
         </dependency>
+
         <dependency>
-            <groupId>dev.jcsoftware</groupId>
-            <artifactId>jscoreboards-1_14-1_18</artifactId>
-            <version>2.1.5-RELEASE</version>
+            <groupId>dev.lisaa</groupId>
+            <artifactId>jscoreboards-1_14-1_19</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>dev.lisaa</groupId>
+            <artifactId>jscoreboards-1_20-1_21</artifactId>
+            <version>${project.parent.version}</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>

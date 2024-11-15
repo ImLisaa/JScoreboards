@@ -17,16 +17,16 @@
     </build>
 
     <parent>
-        <groupId>dev.jcsoftware</groupId>
+        <groupId>dev.lisaa</groupId>
         <artifactId>JScoreboards-parent</artifactId>
-        <version>2.1.5-RELEASE</version>
+        <version>2.2.0-RELEASE</version>
     </parent>
 
     <artifactId>jscoreboards-1_8-1_12</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>dev.jcsoftware</groupId>
+            <groupId>dev.lisaa</groupId>
             <artifactId>jscoreboards-abstraction</artifactId>
             <version>${project.parent.version}</version>
             <scope>provided</scope>
